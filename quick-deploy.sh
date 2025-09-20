@@ -46,6 +46,7 @@ case $choice in
         
         echo "📦 Creating Railway project for backend..."
         railway project new washgo-backend
+        railway link
         
         echo "🗄️ Adding PostgreSQL database..."
         railway add postgresql
@@ -87,6 +88,7 @@ case $choice in
         
         echo "📦 Creating Railway project for frontend..."
         railway project new washgo-frontend
+        railway link
         
         echo "⚙️ Setting environment variables..."
         railway variables set NODE_ENV=production
