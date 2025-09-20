@@ -1,31 +1,24 @@
-# Backend Dockerfile optimized for Railway
-FROM maven:3.9.9-eclipse-temurin-17 AS builder
+FROM openjdk:17-jdk-slim
 
 WORKDIR /app
 
-# Copy pom.xml first for better layer caching
+# Copy Maven wrapper and pom.xml
+COPY mvnw .
+COPY .mvn .mvn
 COPY pom.xml .
-RUN mvn dependency:go-offline -q
+
+# Make mvnw executable
+RUN chmod +x ./mvnw
+
+# Download dependencies
+RUN ./mvnw dependency:go-offline -B
 
 # Copy source code
 COPY src ./src
 
-# Build .jar with Maven
-RUN mvn -f pom.xml clean package -DskipTests -q
+# Build the application
+RUN ./mvnw clean package -DskipTests
 
-# Stage 2: Runtime
-FROM eclipse-temurin:17-jre-alpine
-
-WORKDIR /app
-
-# Copy .jar from build stage
-COPY --from=builder /app/target/washgo-0.0.1-SNAPSHOT.jar app.jar
-
-# Create uploads directory
-RUN mkdir -p /app/uploads
-
-# Use PORT environment variable from Railway
-EXPOSE 8080
-
-# Optimized JVM settings for Railway
-ENTRYPOINT ["sh", "-c", "java -XX:+UseContainerSupport -XX:MaxRAMPercentage=75.0 -XX:+UseG1GC -Dserver.port=${PORT:-8080} -jar app.jar"]
+# Run the application
+EXPOSE $PORT
+CMD ["java", "-Dserver.port=$PORT", "-Dspring.profiles.active=render", "-jar", "target/washgo-0.0.1-SNAPSHOT.jar"]
