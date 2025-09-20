@@ -2,7 +2,7 @@
 
 ## 📋 Prerequisites
 
-- GitHub repository: `lequanghieu2504/washgo-deploy`
+- GitHub repository: `lequanghieu2504/washgo-backend`
 - Render account: [render.com](https://render.com)
 
 ## 🔧 Configuration Files
