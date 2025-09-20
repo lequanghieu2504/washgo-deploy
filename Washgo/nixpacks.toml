@@ -1,0 +1,8 @@
+[provider]
+name = "java"
+
+[build]
+nixPkgs = ["jdk17"]
+
+[start]
+cmd = "./railway-start.sh"
