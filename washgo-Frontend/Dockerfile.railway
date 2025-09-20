@@ -1,0 +1,33 @@
+# Frontend Dockerfile optimized for Railway
+FROM node:18-alpine AS builder
+
+WORKDIR /app
+
+# Copy package files first for better layer caching
+COPY package*.json ./
+
+# Install dependencies
+RUN npm ci --silent
+
+# Copy source code
+COPY . .
+
+# Build the app
+RUN npm run build
+
+# Stage 2: Serve with a simple server
+FROM node:18-alpine
+
+WORKDIR /app
+
+# Install serve globally
+RUN npm install -g serve
+
+# Copy built app from builder stage
+COPY --from=builder /app/dist ./dist
+
+# Use PORT environment variable from Railway
+EXPOSE $PORT
+
+# Start the application
+CMD ["sh", "-c", "serve -s dist -l ${PORT:-3000}"]
