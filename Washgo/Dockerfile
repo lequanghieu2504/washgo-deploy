@@ -25,7 +25,7 @@ COPY --from=builder /app/target/washgo-0.0.1-SNAPSHOT.jar app.jar
 RUN mkdir -p /app/uploads
 
 # Use PORT environment variable from Railway
-EXPOSE $PORT
+EXPOSE 8080
 
 # Optimized JVM settings for Railway
 ENTRYPOINT ["sh", "-c", "java -XX:+UseContainerSupport -XX:MaxRAMPercentage=75.0 -XX:+UseG1GC -Dserver.port=${PORT:-8080} -jar app.jar"]
