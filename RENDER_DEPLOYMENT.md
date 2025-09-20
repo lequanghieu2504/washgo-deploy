@@ -46,7 +46,7 @@ Add these environment variables in the service settings:
 
 **Required Variables:**
 ```env
-DATABASE_URL=<paste-from-postgres-service>
+DATABASE_URL=postgresql://washgo:pIOwDU82zgr352i2UahZIXnlBx3cTWN3@dpg-d37e418gjchc73c7984g-a.singapore-postgres.render.com/washgo_kkrs
 JWT_SECRET=G3BRkHrdRXmhc4CY++yAdBe77o9F9whOX+gYMe8SYrU=
 ```
 
