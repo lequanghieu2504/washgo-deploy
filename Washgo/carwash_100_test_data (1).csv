@@ -1,0 +1,51 @@
+username,email,password,role,carwashName,location,description,availableFrom,availableTo
+carwash_hanoi_001,carwash_hanoi_001@gmail.com,12345678,CARWASH,Carwash Hanoi 001,hanoi,Carwash service - Branch 001,08:26:08,19:27:26
+carwash_hochiminh_002,carwash_hochiminh_002@gmail.com,12345678,CARWASH,Carwash Ho Chi Minh 002,hochiminh,Carwash service - Branch 002,08:49:56,19:57:17
+carwash_danang_003,carwash_danang_003@gmail.com,12345678,CARWASH,Carwash Danang 003,danang,Carwash service - Branch 003,07:54:42,21:17:41
+carwash_haiphong_004,carwash_haiphong_004@gmail.com,12345678,CARWASH,Carwash Haiphong 004,haiphong,Carwash service - Branch 004,07:11:30,19:35:09
+carwash_cantho_005,carwash_cantho_005@gmail.com,12345678,CARWASH,Carwash Cantho 005,cantho,Carwash service - Branch 005,08:41:31,21:45:12
+carwash_binhduong_006,carwash_binhduong_006@gmail.com,12345678,CARWASH,Carwash Binh Duong 006,binhduong,Carwash service - Branch 006,07:03:52,19:38:07
+carwash_dongnai_007,carwash_dongnai_007@gmail.com,12345678,CARWASH,Carwash Dong Nai 007,dongnai,Carwash service - Branch 007,08:50:24,21:18:21
+carwash_tayninh_008,carwash_tayninh_008@gmail.com,12345678,CARWASH,Carwash Tay Ninh 008,tayninh,Carwash service - Branch 008,08:11:35,18:17:40
+carwash_khanhhoa_009,carwash_khanhhoa_009@gmail.com,12345678,CARWASH,Carwash Khanh Hoa 009,khanhhoa,Carwash service - Branch 009,07:54:24,20:52:00
+carwash_lamdong_010,carwash_lamdong_010@gmail.com,12345678,CARWASH,Carwash Lam Dong 010,lamdong,Carwash service - Branch 010,08:21:44,20:48:42
+carwash_thuathienhue_011,carwash_thuathienhue_011@gmail.com,12345678,CARWASH,Carwash Thua Thien Hue 011,thuathienhue,Carwash service - Branch 011,07:32:06,18:32:56
+carwash_quangnam_012,carwash_quangnam_012@gmail.com,12345678,CARWASH,Carwash Quang Nam 012,quangnam,Carwash service - Branch 012,07:48:01,18:21:06
+carwash_gialai_013,carwash_gialai_013@gmail.com,12345678,CARWASH,Carwash Gia Lai 013,gialai,Carwash service - Branch 013,07:14:51,21:13:27
+carwash_quangninh_014,carwash_quangninh_014@gmail.com,12345678,CARWASH,Carwash Quang Ninh 014,quangninh,Carwash service - Branch 014,07:56:54,18:58:51
+carwash_bentre_015,carwash_bentre_015@gmail.com,12345678,CARWASH,Carwash Ben Tre 015,bentre,Carwash service - Branch 015,07:03:11,20:22:14
+carwash_longan_016,carwash_longan_016@gmail.com,12345678,CARWASH,Carwash Long An 016,longan,Carwash service - Branch 016,08:32:10,18:39:58
+carwash_soctrang_017,carwash_soctrang_017@gmail.com,12345678,CARWASH,Carwash Soc Trang 017,soctrang,Carwash service - Branch 017,08:36:23,19:26:33
+carwash_kiengiang_018,carwash_kiengiang_018@gmail.com,12345678,CARWASH,Carwash Kien Giang 018,kiengiang,Carwash service - Branch 018,07:05:02,21:54:13
+carwash_bacninh_019,carwash_bacninh_019@gmail.com,12345678,CARWASH,Carwash Bac Ninh 019,bacninh,Carwash service - Branch 019,07:56:50,20:34:01
+carwash_bacgiang_020,carwash_bacgiang_020@gmail.com,12345678,CARWASH,Carwash Bac Giang 020,bacgiang,Carwash service - Branch 020,08:45:36,20:36:58
+carwash_hanoi_021,carwash_hanoi_021@gmail.com,12345678,CARWASH,Carwash Hanoi 021,hanoi,Carwash service - Branch 021,08:49:25,18:46:26
+carwash_hochiminh_022,carwash_hochiminh_022@gmail.com,12345678,CARWASH,Carwash Ho Chi Minh 022,hochiminh,Carwash service - Branch 022,08:30:39,18:40:04
+carwash_danang_023,carwash_danang_023@gmail.com,12345678,CARWASH,Carwash Danang 023,danang,Carwash service - Branch 023,07:05:33,20:46:00
+carwash_haiphong_024,carwash_haiphong_024@gmail.com,12345678,CARWASH,Carwash Haiphong 024,haiphong,Carwash service - Branch 024,08:26:40,19:11:33
+carwash_cantho_025,carwash_cantho_025@gmail.com,12345678,CARWASH,Carwash Cantho 025,cantho,Carwash service - Branch 025,08:33:14,20:嬉
+carwash_binhduong_026,carwash_binhduong_026@gmail.com,12345678,CARWASH,Carwash Binh Duong 026,binhduong,Carwash service - Branch 026,08:56:40,21:37:56
+carwash_dongnai_027,carwash_dongnai_027@gmail.com,12345678,CARWASH,Carwash Dong Nai 027,dongnai,Carwash service - Branch 027,08:56:29,19:59:52
+carwash_tayninh_028,carwash_tayninh_028@gmail.com,12345678,CARWASH,Carwash Tay Ninh 028,tayninh,Carwash service - Branch 028,07:43:18,21:49:35
+carwash_khanhhoa_029,carwash_khanhhoa_029@gmail.com,12345678,CARWASH,Carwash Khanh Hoa 029,khanhhoa,Carwash service - Branch 029,07:20:31,21:59:01
+carwash_lamdong_030,carwash_landong_030@gmail.com,12345678,CARWASH,Carwash Lam Dong 030,lamdong,Carwash service - Branch 030,08:22:48,20:45:14
+carwash_thuathienhue_031,carwash_thuathienhue_031@gmail.com,12345678,CARWASH,Carwash Thua Thien Hue 031,thuathienhue,Carwash service - Branch 031,08:10:59,20:54:28
+carwash_quangnam_032,carwash_quangnam_032@gmail.com,12345678,CARWASH,Carwash Quang Nam 032,quangnam,Carwash service - Branch 032,08:38:25,18:57:07
+carwash_gialai_033,carwash_gialai_033@gmail.com,12345678,CARWASH,Carwash Gia Lai 033,gialai,Carwash service - Branch 033,08:03:20,19:22:52
+carwash_quangninh_034,carwash_quangninh_034@gmail.com,12345678,CARWASH,Carwash Quang Ninh 034,quangninh,Carwash service - Branch 034,08:00:46,20:25:13
+carwash_bentre_035,carwash_bentre_035@gmail.com,12345678,CARWASH,Carwash Ben Tre 035,bentre,Carwash service - Branch 035,08:11:00,19:00:02
+carwash_longan_036,carwash_longan_036@gmail.com,12345678,CARWASH,Carwash Long An 036,longan,Carwash service - Branch 036,08:04:48,18:19:53
+carwash_soctrang_037,carwash_soctrang_037@gmail.com,12345678,CARWASH,Carwash Soc Trang 037,soctrang,Carwash service - Branch 037,07:00:31,18:03:47
+carwash_kiengiang_038,carwash_kiengiang_038@gmail.com,12345678,CARWASH,Carwash Kien Giang 038,kiengiang,Carwash service - Branch 038,07:24:51,18:48:47
+carwash_bacninh_039,carwash_bacninh_039@gmail.com,12345678,CARWASH,Carwash Bac Ninh 039,bacninh,Carwash service - Branch 039,07:58:09,20:24:53
+carwash_bacgiang_040,carwash_bacgiang_040@gmail.com,12345678,CARWASH,Carwash Bac Giang 040,bacgiang,Carwash service - Branch 040,08:06:09,18:14:59
+carwash_hanoi_041,carwash_hanoi_041@gmail.com,12345678,CARWASH,Carwash Hanoi 041,hanoi,Carwash service - Branch 041,07:31:19,21:15:37
+carwash_hochiminh_042,carwash_hochiminh_042@gmail.com,12345678,CARWASH,Carwash Ho Chi Minh 042,hochiminh,Carwash service - Branch 042,07:36:45,21:56:49
+carwash_danang_043,carwash_danang_043@gmail.com,12345678,CARWASH,Carwash Danang 043,danang,Carwash service - Branch 043,07:08:49,19:48:12
+carwash_haiphong_044,carwash_haiphong_044@gmail.com,12345678,CARWASH,Carwash Haiphong 044,haiphong,Carwash service - Branch 044,08:56:37,20:55:24
+carwash_cantho_045,carwash_cantho_045@gmail.com,12345678,CARWASH,Carwash Cantho 045,cantho,Carwash service - Branch 045,08:47:20,21:36:53
+carwash_binhduong_046,carwash_binhduong_046@gmail.com,12345678,CARWASH,Carwash Binh Duong 046,binhduong,Carwash service - Branch 046,07:16:13,18:52:32
+carwash_dongnai_047,carwash_dongnai_047@gmail.com,12345678,CARWASH,Carwash Dong Nai 047,dongnai,Carwash service - Branch 047,07:08:50,21:05:04
+carwash_tayninh_048,carwash_tayninh_048@gmail.com,12345678,CARWASH,Carwash Tay Ninh 048,tayninh,Carwash service - Branch 048,07:54:12,19:55:48
+carwash_khanhhoa_049,carwash_khanhhoa_049@gmail.com,12345678,CARWASH,Carwash Khanh Hoa 049,khanhhoa,Carwash service - Branch 049,07:19:04,21:54:09
+carwash_lamdong_050,carwash_lamdong_050@gmail.com,12345678,CARWASH,Carwash Lam Dong 050,lamdong,Carwash service - Branch 050,07:23:41,18:57:06
