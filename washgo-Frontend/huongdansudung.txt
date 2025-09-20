@@ -1,0 +1,19 @@
+Hiện tại, file Register.jsx đang set cứng email để test, ví dụ:
+
+Điều này nghĩa là mọi lần đăng ký đều gửi OTP về email này.
+
+Để thay đổi sang email khác, bạn làm như sau:
+Mở file:
+Register.jsx
+
+Tìm dòng khai báo email:
+const email = "hoanghuan3111@gmail.com";
+
+Thay đổi thành email bạn muốn test:
+Ví dụ: const email = "your_email@gmail.com";
+
+Lưu file và chạy lại ứng dụng.
+Tất cả OTP sẽ gửi về email mới bạn vừa nhập.
+
+Nếu muốn cho người dùng nhập email:
+Thay dòng trên bằng: const [email, setEmail] = useState("");
