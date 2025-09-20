@@ -1,11 +1,12 @@
 {
+  "$schema": "https://railway.app/railway.schema.json",
   "builds": [
     {
-      "src": "Washgo/",
+      "src": "Washgo",
       "use": "docker"
     },
     {
-      "src": "washgo-Frontend/",
+      "src": "washgo-Frontend",
       "use": "docker"
     }
   ]
