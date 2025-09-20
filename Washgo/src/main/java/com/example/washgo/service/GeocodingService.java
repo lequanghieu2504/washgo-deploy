@@ -15,8 +15,6 @@ import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import java.time.Duration;
-
 @Service
 public class GeocodingService {
 
@@ -31,8 +29,6 @@ public class GeocodingService {
     public GeocodingService(RestTemplateBuilder restTemplateBuilder, ObjectMapper objectMapper) {
         this.objectMapper = objectMapper;
         this.restTemplate = restTemplateBuilder
-                .setConnectTimeout(Duration.ofSeconds(5)) // Set connection timeout
-                .setReadTimeout(Duration.ofSeconds(10))   // Set read timeout
                 .build();
     }
 
@@ -62,7 +58,7 @@ public class GeocodingService {
         }
 
         String url = UriComponentsBuilder
-                .fromHttpUrl("https://nominatim.openstreetmap.org/search")
+                .fromUriString("https://nominatim.openstreetmap.org/search")
                 .queryParam("q", address)
                 .queryParam("format", "json")
                 .queryParam("limit", 1) // We only need the top result
