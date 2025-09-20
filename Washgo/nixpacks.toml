@@ -1,0 +1,8 @@
+[phases.build]
+cmd = "./mvnw clean package -DskipTests"
+
+[phases.start]
+cmd = "java -jar target/*.jar"
+
+[variables]
+JAVA_VERSION = "17"
