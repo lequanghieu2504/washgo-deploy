@@ -1,30 +1,32 @@
-# Render Deployment Environment Variables
+## URGENT: Fix GoogleOAuthService Bean Creation Error
 
-## Required Environment Variables
-
-To fix the Bean creation exception for StripeConfig, you need to set these environment variables in your Render dashboard:
+**The current error is because these environment variables are missing in Render:**
 
 ### Database
 ```
-DATABASE_URL=postgresql://washgo:your_password@your_host.render.com:5432/your_database
+DATABASE_URL=postgresql://user:password@host:5432/database
 ```
 
-### Stripe (Critical for fixing Bean creation exception)
+### Google OAuth (Critical - these MUST be set)
 ```
-STRIPE_SECRET_KEY=sk_test_your_actual_stripe_key
+GOOGLE_CLIENT_ID=your_actual_client_id
+GOOGLE_CLIENT_SECRET=your_actual_client_secret  
+GOOGLE_REDIRECT_URI=https://washgo-deploy.onrender.com/auth/google/callbackFromGoogle
+GOOGLE_TOKEN_URI=https://oauth2.googleapis.com/token
+GOOGLE_USERINFO_URI=https://www.googleapis.com/oauth2/v3/userinfo
+GOOGLE_AUTHORIZATION_URI=https://accounts.google.com/o/oauth2/auth
+GOOGLE_REFRESH_TOKEN=your_refresh_token
+```
+
+### Stripe
+```
+STRIPE_SECRET_KEY=your_stripe_secret_key
 STRIPE_WEBHOOK_SECRET=your_webhook_secret
 ```
 
 ### JWT
 ```
-JWT_SECRET=your_jwt_secret_key
-```
-
-### Google OAuth
-```
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
-GOOGLE_REDIRECT_URI=https://washgo-deploy.onrender.com/auth/google/callbackFromGoogle
+JWT_SECRET=your_jwt_secret
 ```
 
 ### SMTP
